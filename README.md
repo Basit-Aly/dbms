@@ -57,18 +57,14 @@ The system is built around the following **entities** and their associated **bus
    - Every card is tied to only one account.
 
 ## Deployment
-
 To deploy and run the **Banking Operations Management System**, follow these steps:
 
-1. **Upload the Database:**
-   - Locate the `project.sql` file in the project repository.
-   - This file contains the database schema and initial data required for the system.
-
-2. **Using LiveSQL:**
+1. **Using LiveSQL:**
+   - Locate the `project.sql` file in the project repository. This file contains the database schema and initial data required for the system.
    - Go to [Oracle LiveSQL](https://livesql.oracle.com/).
    - Copy the contents of the `project.sql` file and paste them into the LiveSQL script editor.
 
-3. **Using SQL Developer:**
+2. **Using SQL Developer:**
    - Open the `project.sql` file in SQL Developeron your local machine. Connect to your Oracle database using your credentials
    - This will create the necessary tables, relationships, and insert initial data.
    - Run some querries for testing.
